@@ -1,0 +1,13 @@
+.head-bar
+  .head-bar__logo
+    FAVO
+  %form.Form
+    .Form__contents
+      %input.Form__inputContent{type: 'text', placeholder: '商品検索はこちら'}
+      %input.Form__submit{type: 'submit', value: 'GO'}  
+    .Form__icons
+      = icon('fa', 'cog',class:"contents__btn")
+      = icon('fa', 'user',class:"contents__btn")
+.wrapper
+  = render "side_bar"
+  = render "main_bar"
