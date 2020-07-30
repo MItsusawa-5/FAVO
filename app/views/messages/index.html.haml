@@ -5,8 +5,11 @@
     .Form__contents
       %input.Form__inputContent{type: 'text', placeholder: '商品検索はこちら'}
       %input.Form__submit{type: 'submit', value: 'GO'}  
+    .user-name
+      = current_user.name
     .Form__icons
-      = icon('fa', 'cog',class:"contents__btn")
+      = link_to edit_user_path(current_user) do
+        = icon('fa', 'cog',class:"contents__btn")
       = icon('fa', 'user',class:"contents__btn")
 .wrapper
   = render "side_bar"

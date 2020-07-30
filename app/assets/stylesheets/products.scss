@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+* {
+  box-sizing: border-box;
+}
+
+.top-bar{
+height: 70px;
+width: 100vw;
+background-color: crimson;
+}
+
+.head-bar__logo{
+  border-bottom: 1px black solid;
+  margin-left: 20px;
+  font-size: 62px;
+  font-family: serif;
+  font-weight: bold;
+  height: 70px;
+  color: black;
+  animation: text_animation3 2s;
+ 
+}
+
+.main-contents{
+  height: 600px;
+  width: 100vw;
+  background-color: blue;
+  padding: 5px 80px;
+  display: flex;
+  
+}
+
+.youtube{
+  height: 400px;
+  width: 700px;
+  background-color: chartreuse;
+}
+.comments{
+  height: 190px;
+  width: 700px;
+  background-color: blanchedalmond;
+}
+
+.details{
+  height: 100%;
+  width: calc(100% - 700px);
+  background-color: cornflowerblue;
+}
+
+.details__top-items{
+  display: flex;
+  justify-content: space-between;
+  .name{
+    background-color: cyan;
+    // height: 50px;
+    font-size: 20px;
+    // text-decoration: underline ;
+    text-decoration-color: black;
+    border-bottom: solid 1px black;
+    // line-height: 60px;
+    padding-top: 40px;
+    margin-left: 10px;
+  }
+  .price{
+  background-color: darkgoldenrod;
+  font-size: 20px;
+  padding-top: 40px;
+  border-bottom: solid 1px black;
+  }
+}
+
+.item-image{
+  height: 400px;
+  width: 90%;
+}
+
+.buy{
+  height: 100px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+.comment-form{
+  height: calc(100vh - 600px);
+  width: 100vw;
+  background-color: brown;
+}
