@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
   def edit
+    flash[:notice] = "Edit Account"
   end
 
   def update
+    flash[:notice] = "Edit Complete"
     if current_user.update(user_params)
       redirect_to root_path
     else

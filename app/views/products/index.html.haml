@@ -1,10 +1,23 @@
 .top-bar
   .head-bar__logo
-    FAVO
+    = link_to root_path do
+      FAVO
 .main-contents
   .youtube
     %iframe{:allow => "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture", :allowfullscreen => "", :frameborder => "0", :height => "400", :src => "https://www.youtube.com/embed/jSysx4f9waw", :width => "700"}
-    .comments
+    .youtube-comments
+      %ul.slick01
+        %li
+          = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', size:'120x120'
+        %li
+          = image_tag '61P6OPUtnEL._AC_.jpg', size:'120x120'
+        %li
+          = image_tag '61P6OPUtnEL._AC_.jpg', size:'120x120'
+        %li
+          = image_tag '61P6OPUtnEL._AC_.jpg', size:'120x120'
+        %li
+          = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', size:'120x120'
+      .dots
   .details
     .details__top-items
       .name
@@ -13,6 +26,18 @@
         ¥16,250
     .image
       = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
-    .buy
-      FAVO!!
+      .buy
+        %p
+          %a{onclick: "sound()"} FAVO !!
+          %audio#sound-file{preload: "auto"}
+            %source{src: "http://www.kurage-kosho.info/mp3/switch02.mp3", type: "audio/mp3"}
 .comment-form
+  .comment
+    .comments
+      = render partial: "komento", locals: { text: @product }
+  .text-form
+    .footer
+      = form_with model: @todo, html: { class: 'form' }, local: true do |f|
+        .text-box
+          = f.text_field :text, class: 'text', placeholder: 'type a message'
+        = f.submit "Send", class: 'send'

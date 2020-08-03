@@ -33,6 +33,29 @@
   }
 }
 
+.back-ground-image{
+  background-image: url("thumb2-stylish-dark-leather-texture-4k-stylish-leather-background-black-stylish-background-leather-texture.jpg");
+  height: 100vh;
+}
+
+.vsc-initialized{
+  background-image: url("thumb2-stylish-dark-leather-texture-4k-stylish-leather-background-black-stylish-background-leather-texture.jpg");
+}
+
+.AccountPage{
+  background-image: url("thumb2-stylish-dark-leather-texture-4k-stylish-leather-background-black-stylish-background-leather-texture.jpg");
+
+}
+
+.AccountPage__title{
+  h2{
+    color: white;
+  }
+  h5{
+    color: white;
+  }
+}
+
 .AccountPage__form {
   width: 50%;
 }
@@ -44,8 +67,10 @@
     letter-spacing: 1px;
     font-size: 14px;
     font-weight: 200;
+    color: white;
     i {
       font-size: 11px;
+      
     }
     .field_with_errors {
       display: inline-block;
@@ -87,12 +112,34 @@
   border: none;
   border-radius: 2px;
   text-decoration: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-family: serif;
+}
+
+.Button2{
+  display: inline-block;
+  height: 50px;
+  padding: 0 30px;
+  line-height: 50px;
+  letter-spacing: 1px;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  font-family: serif;
 }
 
 .UserButton {
   margin-top: 20px;
-  color: #fff;
-  background-color: #38aef0;
+  color:black;
+  background-color: white;
+  font-family: serif;
+  font-weight: bold;
 }
 
 #error_explanation {
