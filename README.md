@@ -1,5 +1,6 @@
 # README
 ![](https://i.gyazo.com/ecf27aa3bd0228aaaa177377ff30fddf.jpg)
+![](https://i.gyazo.com/f914892ff301ab19932bdbe7d0592191.jpg)
 <!-- なぜこのアプリをつくろうと思ったのか -->
 <!-- 画像そのものを挿入 -->
 
