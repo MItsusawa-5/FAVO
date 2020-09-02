@@ -1,4 +1,7 @@
 # README
+![](https://i.gyazo.com/ecf27aa3bd0228aaaa177377ff30fddf.jpg)
+<!-- なぜこのアプリをつくろうと思ったのか -->
+<!-- 画像そのものを挿入 -->
 
 # アプリ名「FAVO」
 自分のお気に入り（Favorite）商品を管理するサイトです。
