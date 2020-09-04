@@ -73,3 +73,7 @@ gem 'bootstrap', '~> 4.1.1'
 gem 'jquery-rails' 
 
 gem 'fog-aws'
+gem 'kaminari'
+gem 'pry-rails'
+gem 'carrierwave'
+gem 'mini_magick'
