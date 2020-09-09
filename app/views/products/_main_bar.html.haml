@@ -6,7 +6,7 @@
       .productList1
         = link_to product_path(product), class:"link" do
           %figure.productList--img
-            = image_tag product.images[0].image_name.url, size:"250x200" , alt:"商品写真"
+            -# = image_tag product.images[0].image_name.url, size:"250x200" , alt:"商品写真"
         .productList--body
           %h3.name
             = product.name
