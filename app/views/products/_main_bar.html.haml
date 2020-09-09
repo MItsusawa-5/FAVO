@@ -1,0 +1,70 @@
+.main_bar
+  .main_bar_topBar
+    Products
+  %ul.main_bar_contents
+    - @products_index.each do |product|
+      .productList1
+        = link_to product_path(product), class:"link" do
+          %figure.productList--img
+            -# = image_tag product.images[0].image_name.url, size:"250x200" , alt:"商品写真"
+        .productList--body
+          %h3.name
+            = product.name
+          .details
+            %ul
+              %li
+                ="#{product.price}円"
+            %p.tax
+              (税込)
+
+
+    -# %li.item-list
+    -#   = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
+    -#   .item-info
+    -#     .item-info__name
+    -#       Men's Tree Dashers
+    -#     .item-info__price
+    -#       %a ¥16,250
+    -#   .item-details
+    -#     -# = link_to product_path() do
+    -#       Details
+    -# %li.item-list
+    -#   = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
+    -#   .item-info
+    -#     .item-info__name
+    -#       Men's Tree Dashers
+    -#     .item-info__price
+    -#       %a ¥16,250
+    -#   .item-details
+    -#     -# = link_to product_path() do
+    -#       Details
+    -# %li.item-list
+    -#   = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
+    -#   .item-info
+    -#     .item-info__name
+    -#       Men's Tree Dashers
+    -#     .item-info__price
+    -#       %a ¥16,250
+    -#   .item-details
+    -#     -# = link_to product_path() do
+    -#       Details
+    -# %li.item-list
+    -#   = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
+    -#   .item-info
+    -#     .item-info__name
+    -#       Men's Tree Dashers
+    -#     .item-info__price
+    -#       %a ¥16,250
+    -#   .item-details
+    -#     -# = link_to product_path() do
+    -#       Details
+    -# %li.item-list
+    -#   = image_tag 'TD1MTHU_SHOE_ANGLE_GLOBAL_MENS_TREE_DASHERS_THUNDER_36019070-22fa-436d-ad91-305fab5e602e.jpg', class:'item-image'
+    -#   .item-info
+    -#     .item-info__name
+    -#       Men's Tree Dashers
+    -#     .item-info__price
+    -#       %a ¥16,250
+    -#   .item-details
+    -#     -# = link_to product_path() do
+    -#       Details

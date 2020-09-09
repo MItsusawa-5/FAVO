@@ -1,0 +1,247 @@
+
+.notice{
+  background-color: orange;
+  font-weight: bold;
+  
+}
+
+.form1{
+  height: 100vh;
+  padding:0 150px;
+  background-color:#EEEEEE	;
+  overflow: scroll;
+  
+  .contents{
+    width: 1100px;
+    padding: 10px 50px;
+    display: flex;
+    background-color: white;
+  }
+}
+
+.new_constraint{
+  display: flex;
+  justify-content: center;
+  .new_imageindicate{
+    font-size: 20px;
+  }
+  .new_image-coution{
+    line-height: 30px;
+  }
+  .new_imagemust{
+    color: red;
+    line-height: 30px;
+  }
+}
+
+.edit_hidden-content{
+  padding: 20px 0;
+}
+
+.js-file_group{
+  border-bottom: 1px solid #EEEEEE;
+}
+  
+  .listing-form-box{
+    padding: 50px 0;
+    border-bottom: 1px solid #EEEEEE;
+    .listing-product-detail__category{
+      display: flex;
+      // padding: 0 80px;
+      .listing-default__label{
+        width: 150px;
+      }
+      .listing-default--require{
+        width: 150px;
+        color: red;
+        margin-left: 15px;
+
+      }
+    }
+  }
+
+.name1{
+  margin-top: 30px;
+  margin-bottom: 16px;
+  padding-top: 15px;
+  border-bottom: 1px solid #EEEEEE;
+
+}
+    .item{
+      display: flex;
+    }
+
+        .constraint{
+          display: flex;
+        }
+          .imageindicate{
+            margin-left: 83px;
+            margin-bottom: 20px;
+            width:110px;
+          }
+
+
+  .name{
+    margin-top: 30px;
+    margin-bottom: 16px;
+    padding-top: 15px;
+  }
+
+      .item{
+        display: flex;
+        padding: 0 80px;
+          .iteminfo{
+            display: flex;
+            margin-top: 30px;
+          
+          &__name{
+            color:black;
+            width: 150px;
+          }
+          &__must{
+            color: red;
+            margin-left: 15px;
+            width: 150px;
+          }
+        }
+        .nameform{
+          width: 500px;
+          height: 50px;
+          background-color: white;
+          border: inset;
+          margin-top: 30px;
+        }
+        .explainform{
+          border: inset;
+          height: 200px;
+          width: 500px;
+        }
+      }
+  .listing-select-wrapper{
+    
+  }
+  .listing-select-wrapper__box--arrow-down{
+    display: none;
+  }
+  .explain{
+    margin-bottom: 16px;
+    padding-top: 15px;
+    border-bottom: 1px solid #EEEEEE;
+  }
+
+  .listing-product-detail__category{
+    margin-left: 83px;
+  }
+  .listing-default--require{
+    margin-left: 55px;
+    color: red;
+  }
+
+  .category{
+    margin-bottom: 16px;
+  }
+  ​
+  .brand{
+    margin-bottom: 16px;
+    border-bottom: 1px solid #EEEEEE;
+  }
+
+.status{
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+  .status-info{
+    display: flex;
+    padding: 0 80px;
+    .status-info__name{
+      width: 150px;
+    }
+    .status-info__must{
+      width: 150px;
+      color: red;
+      margin-left: 15px;
+    }
+  }
+}
+
+.area{
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+  .areainfo{
+    display: flex;
+    padding: 0 80px;
+    .areainfo__name{
+      width: 150px;
+    }
+    .areainfo__must{
+      width: 150px;
+      color: red;
+      margin-left: 15px;
+    }
+  }
+}
+
+.limit{
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+  .limitinfo{
+    display: flex;
+    padding: 0 80px;
+    .limitinfo__name{
+      width: 150px;
+    }
+    .limitinfo__must{
+      width: 150px;
+      color: red;
+      margin-left: 15px;
+    }
+  }
+}
+
+.delivery_cost {
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+  .deliveryinfo{
+    display: flex;
+    padding: 0 80px;
+    .deliveryinfo__name{
+      width: 150px;
+    }
+    .deliveryinfo__must{
+      width: 150px;
+      color: red;
+      margin-left: 15px;
+    }
+  }
+}
+
+.price-info{
+  padding: 20px 0;
+  border-bottom: 1px solid #EEEEEE;
+  .price-info__box{
+    display: flex;
+    padding: 0 80px;
+    .price-info__box__name{
+      width: 150px;
+    }
+    .price-info__box__must{
+      width: 150px;
+      color: red;
+      margin-left: 15px;
+    }
+  }
+}
+
+.new{
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  .newbtn{
+    font-size: 30px;
+    height: 80px;
+    width: 400px;
+    background-color: #00ffff;
+    border-radius: 10px;
+    border: 1px solid #C0C0C0;
+  }
+}
+
